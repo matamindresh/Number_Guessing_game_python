@@ -1,9 +1,9 @@
 import random as r
 
-    def rand_num():
-        a=int(input("Enter the starting range:"))
-        b=int(input("Enter the ending range:"))
-        return r.randint(a,b)
+def rand_num():
+    a=int(input("Enter the starting range:"))
+    b=int(input("Enter the ending range:"))
+    return r.randint(a,b)
 
 print("Welcome to NUMBER GUESSING GAME")
 x=rand_num()
